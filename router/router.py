@@ -35,6 +35,9 @@ def main():
         t += 1
 
         # Write Your Code Here Start
+        if (signal_values[0] >= 1 and signal_values[0] <= 4):
+            setting = signal_values[0]
+            control_values[setting] = signal_values[1] 
 
         # Write Your Code Here End
 
